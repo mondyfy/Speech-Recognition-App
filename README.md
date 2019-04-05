@@ -1,5 +1,5 @@
 # Speech-Recognition-App
-Simple speech recognition app injs
+Simple speech recognition app using webspeech api in js.
 
 
 Let’s click the icon and try one of the following phrases:
