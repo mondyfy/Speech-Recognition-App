@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Text to Speech Converter</title>
+        <link rel="stylesheet" type="text/css" href="tts-style.css">
+    </head>
+    <body>
+        <div class="container">
+<h2>Text to Speech Converter</h2>
+<textarea id="myText">Hello,It's me sandip Just learning to convert the text to speech using js</textarea>
+<label>
+    <span>Voice</span>
+    <select id="voiceOptions"></select>
+</label>
+<label>
+        <span>Volume</span>
+        <input type="range" id="volumeSlider" min="0" max="1" value="0.5" step="0.1" />
+    </label>
+    <label>
+            <span>Rate</span>
+            <input type="range" id="rateSlider" min="0" max="1" value="0.5" step="0.1" />
+        </label>
+        <label>
+                <span>Pitch</span>  
+                <input type="range" id="pitchSlider" min="0" max="1" value="0.5" step="0.1" />
+            </label>
+            <div class="button" onclick="speak();">Speak</div>
+        </div>
+        <script type="text/javascript" src="tts.js"></script>
+    </body>
+</html>

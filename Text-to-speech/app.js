@@ -4,7 +4,7 @@ var synthesis = window.speechSynthesis;
 //Checking if the browser supports the speechSynthesis or not.
 if ('speechSynthesis' in window) {
     var synthesis = window.speechSynthesis;
-    // do stuffs with synthesis
+    // Getting Available Voices
     // Regex to match all English language tags e.g en, en-US, en-GB
   var langRegex = /^en(-[a-z]{2})?$/i;
 
