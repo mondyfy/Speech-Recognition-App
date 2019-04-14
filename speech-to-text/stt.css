@@ -1,0 +1,18 @@
+body{
+    font-family: verdana;
+}
+#result{
+    height: 200px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 0 10px 0 #bbb;
+    margin-bottom: 30px;
+    font-size: 14px;
+    line-height: 25px;
+}
+button{
+    font-size: 20px;
+    position: absolute;
+    top: 240px;
+    left:50%;
+}

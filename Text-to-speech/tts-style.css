@@ -33,7 +33,7 @@ body{
 .container label select, .container label input{
     width: 290px;
 }
-.button{
+.button {
     display: inline-block;
     background: #f6f6f6;
     padding: 10px 20px;
