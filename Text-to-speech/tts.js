@@ -16,7 +16,7 @@ function loadVoices () {
     var voices = speechSynthesis.getVoices();
     for (var i =0; i<voices.length; i++){
         var voice = voices[i];
-        var options = document.createElement('option');
+        var option = document.createElement('option');
         option.value = voice.name;
         option.innerHTML = voice.name;
         voiceOptions.appendChild(option);
